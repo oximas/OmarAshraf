@@ -1,6 +1,6 @@
 
 <h1 align="center">Omar Ashraf</h1>
-<p align="center"><b>Machine Learning · NLP · Computer Vision · Embedded Systems</b></p>
+<p align="center"><b>Machine Learning · NLP · Computer Vision</b></p>
 <p align="center">
   <a href="https://omarashraf-oximas.vercel.app/
 ">Website</a> ·
@@ -13,7 +13,7 @@
 
 ## About me
 
-I'm a Communications and Electronics Engineering student at Alexandria University (class of 2027) and Vice Head of the ML Team at IEEE SSCS Student Branch. I like building ML systems end to end: training models, wiring them into real applications, and sometimes squeezing them onto a microcontroller.
+I'm a Communications and Electronics Engineering student at Alexandria University (class of 2027) and Vice Head of the ML Team at IEEE SSCS Student Branch. I like building ML systems end to end: training models, wiring them into real applications, and building real working agents.
 
 I learn by going deep. I completed the OSSU Computer Science curriculum on my own, implemented backpropagation from scratch, and built most of what I know by shipping projects.
 
