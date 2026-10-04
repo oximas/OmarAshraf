@@ -1,65 +1,83 @@
-# Omar Ashraf | Portfolio
 
-Personal portfolio website showcasing my machine learning, NLP, computer vision, and embedded systems projects.
+<h1 align="center">Omar Ashraf</h1>
+<p align="center"><b>Machine Learning · NLP · Computer Vision · Embedded Systems</b></p>
+<p align="center">
+  <a href="https://omarashraf-oximas.vercel.app/
+">Website</a> ·
+  <a href="https://www.linkedin.com/in/omar-ashraf-790086178/">LinkedIn</a> ·
+  <a href="mailto:oximas2004@gmail.com">Email</a> ·
+  <a href="cv.pdf">CV</a>
+</p>
 
-**Live site:** https://YOUR-SITE.vercel.app *(replace with your link)*
+---
 
-<!-- Add a screenshot after deploying:
-![Portfolio screenshot](assets/img/screenshot.png)
--->
+## About me
 
-## About
+I'm a Communications and Electronics Engineering student at Alexandria University (class of 2027) and Vice Head of the ML Team at IEEE SSCS Student Branch. I like building ML systems end to end: training models, wiring them into real applications, and sometimes squeezing them onto a microcontroller.
 
-I'm a Communications and Electronics Engineering student at Alexandria University (class of 2027) and Vice Head of the ML Team at IEEE SSCS Student Branch. This site collects the projects I've built, the skills behind them, and my CV.
+I learn by going deep. I completed the OSSU Computer Science curriculum on my own, implemented backpropagation from scratch, and built most of what I know by shipping projects.
 
 ## Featured projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| **Soundband** | Assistive device that turns speech into text for deaf users, with on-device MFCC feature extraction | ESP, Arduino, MFCC, embedded ML |
-| **RECALL** | RAG chatbot that answers from your own documents | LangChain, FAISS, FastAPI |
-| **Toxicity classifiers** | 15-class toxicity detection comparing BiLSTM, DistilBERT + LoRA, and Llama Guard | PyTorch, Hugging Face, FastAPI |
-| **Financial manager** | Personal finance app, installable as a PWA | FastAPI, PostgreSQL, React, Docker |
-| **HackerMode** | Windows lock screen that enforces daily tasks | PyQt6, Python |
+### Soundband
+An assistive device that turns speech into text for deaf users, built for an IEEE Arduino competition.
+- Extracts MFCC audio features directly on an ESP microcontroller
+- Model trained off-device, then exported and run on the chip
+- Designed as a complete product, not just a prototype
 
-## Built with
+`ESP` `Arduino` `MFCC` `Embedded ML`
 
-- Plain HTML, CSS, and JavaScript, with no build step and no dependencies
-- Canvas-based interactive network animation in the hero section
-- Responsive layout, with reduced-motion support
-- Fonts: Space Grotesk and JetBrains Mono (Google Fonts)
+### RECALL
+A RAG chatbot that answers questions from your own documents.
+- Document ingestion, chunking, and vector search with FAISS
+- LangChain pipeline behind a FastAPI backend with a lightweight web frontend
 
-## Project structure
+`LangChain` `FAISS` `FastAPI` `JavaScript`
 
-```
-.
-├── index.html     # the whole site
-├── cv.pdf         # downloadable CV
-├── README.md
-└── assets/        # images and media (optional)
-```
+### Toxicity classifiers
+A 15-class toxicity detection project comparing three approaches.
+- Word2Vec + BiLSTM baseline
+- DistilBERT fine-tuned with LoRA
+- Zero-shot Llama Guard pipeline
+- Served through FastAPI
 
-## Run locally
+`PyTorch` `Hugging Face` `LoRA` `FastAPI`
 
-Open `index.html` in any browser, or serve the folder:
+### Financial manager
+A personal finance app, installable as a PWA.
+- FastAPI backend with PostgreSQL and JWT authentication
+- React frontend, containerized with Docker Compose
 
-```bash
-python -m http.server 8000
-# then visit http://localhost:8000
-```
+`FastAPI` `PostgreSQL` `React` `Docker`
 
-## Deploy
+### HackerMode
+A Windows lock screen that stays locked until my daily tasks are done, with Anki integration.
 
-The site is fully static, so any static host works:
+`PyQt6` `Python`
 
-1. Push this repo to GitHub.
-2. Import it in [Vercel](https://vercel.com) or [Cloudflare Pages](https://pages.cloudflare.com).
-3. Leave the build command empty and set the output directory to the repo root.
+## Skills
 
-Every push to `main` redeploys automatically.
+| Area | Tools and topics |
+|---|---|
+| **Machine learning** | PyTorch, CNNs, transformers, BERT, LoRA/DoRA fine-tuning, knowledge distillation, backprop from scratch |
+| **NLP and LLMs** | LangChain, RAG, FAISS, ChromaDB, Ollama, Hugging Face, Word2Vec, BiLSTM |
+| **Computer vision** | Object detection, segmentation, Vision Transformers, YOLO, Albumentations, tracking |
+| **Backend and DevOps** | Python, FastAPI, Pydantic, PostgreSQL, JWT, Docker, Docker Compose, Linux, networking |
+| **Frontend** | React, Tailwind CSS, JavaScript, PWAs, PyQt6 |
+| **Embedded** | ESP, Arduino, audio signal processing, MFCC, computer architecture |
+| **Foundations** | OSSU Computer Science, linear algebra, probability, abstract algebra, real analysis |
 
-## Contact
+## Experience and education
 
-- Email: oximas2004@gmail.com
-- GitHub: [github.com/oximas](https://github.com/oximas)
+- **Vice Head, ML Team, IEEE SSCS Student Branch** (Nov 2025 to now): help lead the ML team and taught an 8-week computer vision course.
+- **NLP course projects, Neurova**: built toxicity classifiers and a content moderation pipeline, deployed behind an API.
+- **B.Sc. Communications and Electronics Engineering**, Alexandria University (expected 2027).
+
+## Get in touch
+
+I'm open to internships, collaborations, and ML projects.
+
+- Email: [oximas2004@gmail.com](mailto:oximas2004@gmail.com)
 - LinkedIn: [Omar Ashraf](https://www.linkedin.com/in/omar-ashraf-790086178/)
+- Website: [Oximas Portfolio](https://omarashraf-oximas.vercel.app/
+)
